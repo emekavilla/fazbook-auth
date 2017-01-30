@@ -1,14 +1,17 @@
 <% include partials/head.ejs %>
-  <body>
+  <body style="text-align: center; background-image: url(http://windows10wall.com/wp-content/uploads/2014/07/dog-family-wallpaper.jpg); background-size: 1290px 700px;
+    background-repeat: no-repeat;">
     <% include partials/header.ejs %>
     <main>
-      <div class="container">
+      <div class="container" style="text-align: center;">
         <p>Hello, this is the main index page!</p>
-        <p><a href="/auth/register">click here to register</a></p>
-        <p><a href="/auth/login">click here to log in</a></p>
-        <p><a href="/auth/logout">click here to logout</a></p>
+        <p style="font-size: 26px;"><a href="/auth/register">click here to register</a></p>
+        <p style="font-size: 26px;"><a href="/auth/login">click here to log in</a></p>
+        <!-- <p><a href="/auth/logout">click here to logout</a></p> -->
       </div>
     </main>
-    <% include partials/footer.ejs %>
   </body>
+  <footer style="position: fixed; bottom: 0;">
+     <p>All Rights Reserved</p>
+     </footer>
 </html>
